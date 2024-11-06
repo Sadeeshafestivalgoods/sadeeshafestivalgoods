@@ -1,0 +1,105 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Default Styling for Desktop */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Responsive Styling for Mobile Devices */
+@media (max-width: 768px) {
+    /* Body and General Text */
+    body {
+        padding: 10px;
+    }
+    
+    /* Headings */
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+    h3 {
+        font-size: 1.4em;
+    }
+    h4 {
+        font-size: 1.2em;
+    }
+    h5 {
+        font-size: 1em;
+    }
+    h6 {
+        font-size: 0.9em;
+    }
+
+    /* Paragraphs */
+    p {
+        font-size: 1em;
+        line-height: 1.5;
+    }
+
+    /* Lists */
+    ul, ol {
+        font-size: 1em;
+        padding-left: 1.5em;
+    }
+
+    li {
+        margin-bottom: 0.5em;
+    }
+
+    /* Links */
+    a {
+        font-size: 1em;
+        color: #007bff;
+    }
+
+    /* Images */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Videos */
+    video, iframe {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Buttons */
+    button {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+
+    /* Container for content alignment */
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    /* Tables */
+    table {
+        width: 100%;
+        font-size: 1em;
+        overflow-x: auto;
+    }
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+
+    /* Adjust input and textarea elements */
+    input[type="text"], textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 1em;
+    }
+}
